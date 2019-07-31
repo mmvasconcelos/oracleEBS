@@ -1,0 +1,29 @@
+1 - Fazendo o Oracle EBS funcionar em máquinas com SO Windows.
+
+1.1: Crie um ponto de restauração na sua máquina para retaguarda caso surjam problemas e você necessite restaurar seu sistema.
+
+1.2: Instale uma versão do JAVA que seja anterior ou igual a 1.6.45. Download da versão 1.6.27:
+https://drive.google.com/file/d/10Az_7YqXe-xVTw0VXcJX85pRwmoygTrq/view?usp=sharing
+
+Obs.: Não é necessário a desinstalação do seu JAVA atual.
+
+1.3: Instale o Internet Explorer V11:
+https://drive.google.com/file/d/1J4i1fz7ecWswhNrK9QzVOgDSQ1j1YLGS/view?usp=sharing
+
+1.4: Vá até as configurações do seu JAVA, na aba "Segurança" e adicione a URL do EBS na "Lista de Exceções de Sites", como na imagem:
+https://drive.google.com/file/d/1DkBWzbHiiw7ofTLc5Z9CyoYDmFcGQaG4/view?usp=sharing
+
+1.5: Ainda nas configurações, na aba "Avançado" verifique se o checkbox "Java Padrão para browsers" está habilitado para o Internet
+Explorer, como na imagem:
+https://drive.google.com/file/d/1idj7UiKF-EuEOWgxj1fJ3uxvWYpClP4F/view?usp=sharing
+
+1.6: Após instalado o Internet Explorer 11, vá em configurações e adicione a URL do Oracle EBS no modo compatibilidade, como na imagem:
+https://drive.google.com/file/d/1nl2JQeehX8DoNlrA8i3grWCRzpUk5wK8/view?usp=sharing
+
+1.7: Ainda no navegador, vá em "Opções da Internet" e na aba "Segurança" > Nível Personalizado e desabilite o Filtro XSS, como na imagem:
+https://drive.google.com/file/d/1f2SbPFf1lmjibQwkJKsxAsWZ9gR74yhk/view?usp=sharing
+
+Esses passos deram certo para mim, espero que para você também :)
+
+
+
